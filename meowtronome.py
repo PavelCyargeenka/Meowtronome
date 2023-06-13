@@ -30,9 +30,9 @@ class Meowtronome:
         self.upbeat = path.join(ROOT, 'audio/ub.wav')
         self.downdog = path.join(ROOT, 'audio/dog.wav')
         self.upcat = path.join(ROOT, 'audio/upcat.mp3')
-        self.available_time_signatures = [
+        self.available_time_signatures = (
             '1/4', '2/4', '3/4', '4/4', '5/4', '6/4', '3/8', '5/8', '6/8', '9/8'
-        ]
+        )
 
         try:
             self.show_time_signatures()
